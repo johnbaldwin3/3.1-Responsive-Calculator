@@ -5830,10 +5830,16 @@ body {
   color: black;
   cursor: pointer; }
   .button-norm:hover, .button-orange:hover {
-    text-decoration: none; }
+    text-decoration: none;
+    color: black; }
+  .button-norm:active, .button-orange:active {
+    background-color: #86898C;
+    color: white; }
 
 .button-orange {
   background-color: orange; }
+  .button-orange:active {
+    background-color: #F66733; }
 
 .calculator {
   border: 1px solid #363636;

@@ -37,6 +37,12 @@ body {
 
   &:hover {
     text-decoration: none;
+    color: black;
+  }
+
+  &:active {
+    background-color: #86898C;
+    color: white;
   }
 
 }
@@ -44,6 +50,10 @@ body {
 .button-orange {
   @extend .button-norm;
   background-color: orange;
+
+  &:active {
+    background-color: #F66733;
+  }
 }
 
 .calculator {

@@ -1,3 +1,20 @@
+(function(){
+  "use strict";
+  console.log("stuff");
 
-var num1;
-var num2;
+var buttonClicked = document.getElementsByClassName('bttn');
+
+function buttonColorClick(){
+
+  buttonClicked.addEventListener('click', function(){
+    console.log("clicked");
+    buttonClicked.style.backgroundColor = 'grey';
+  })
+
+}
+
+
+
+
+
+}());

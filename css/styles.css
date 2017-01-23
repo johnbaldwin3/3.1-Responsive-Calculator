@@ -5813,10 +5813,12 @@ body {
   border: 1px solid #363636;
   background-color: #4C4C4C;
   color: #FFF;
-  height: 50px;
+  height: 60px;
   font-size: 40px;
+  padding-right: 10px;
   margin: 0 auto;
-  text-align: right; }
+  text-align: right;
+  font-weight: 200; }
 
 .button-norm, .button-orange {
   border: 1px solid #363636;

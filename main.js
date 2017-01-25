@@ -42,19 +42,19 @@ for (var i=0; i < operatorPressed.length; i++) {
       pushOperator = event.target.dataset.value;
     } else {
       var test = Number(result) + Number(input);
-      console.log(test);
+      display.textContent = test;
     }
 
   })
 }
 
 
-function allClear() {
-
-  if (operatorPressed == 'AC') {
-    display.textContent = '0';
-  }
-};
+// function allClear() {
+//
+//   if (operatorPressed == 'AC') {
+//     display.textContent = '0';
+//   }
+// };
 // numberPressed.addEventListener('click', function(event){
 //   var myVal = Number(event.target.getAttribute('value'));
 //   console.log(myVal);
